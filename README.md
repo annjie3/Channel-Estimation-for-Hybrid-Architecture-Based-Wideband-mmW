@@ -1,6 +1,8 @@
 This code attempts to regenerate the time domain channel estimation results in figure 4 of the paper below.
-The modeled equivalent channel model uses a sync/rectangular pulse. The results contained in the the results.pdf 
-are attained with 50 realizations of the channel. This simulation uses more loops than necessary and can be vectorize
+The modeled equivalent channel is a sync/rectangular pulse. 
+
+The results contained in the the results.pdf 
+are attained with 300 realizations of the channel. This simulation uses more loops than necessary and can be vectorize
 to reduce complexity and generate smoother results with more realizations.
 
 The goal is to enhance my simulation skills and ability to mathematically work through the derivations.
