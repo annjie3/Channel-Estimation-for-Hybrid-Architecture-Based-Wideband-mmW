@@ -1,5 +1,5 @@
 This code attempts to regenerate the time domain channel estimation results in figure 4 and figure 5 of the paper below.
-The simultations are performed with 1000 channel realizations.
+The simultations are performed with 300 and 1000 channel realizations for figure 4, and 5 respectively.
 For simplicity, no pulse shaping is used and the pulse shaping function prs() is replaced by a delta function, and the time domain pilot symbols sm are complex gaussians samples.
 This simulation can be vectorized to reduce complexity.
 
