@@ -2,14 +2,23 @@ This code aims to replicate the time domain channel estimation results presented
 
 The simulation includes the following modules:
 run_channel_est_AoA_AoD_analysis.m: The main script that calls all necessary functions to generate the data for Figure 4.
+
 run_channel_est_rf_analysis.m: The main script that calls all necessary functions to generate the data for Figure 5.
+
 frame_param.m: A function that generates the pilot symbols, precoder, and combiner for each frame m.
+
 noise.m: A function that generates noise with combiner Wm for frame m.
+
 OMP.m: A function that runs the OMP algorithm to generate the sparse output xtd, from which the delay, AoA, and AoD are derived.
+
 channel.m: A function that generates a channel realization.
+
 steering_dict.m: A function that forms the steering dictionaries Atx and Arx.
+
 steering_vec.m: A function that forms and returns a ULA steering vector given an AoA/AoD and the array length.
+
 plot_nmse.m: A function that plots the saved data from modules (1) and (2), with the output in result.pdf.
+
 The results are compiled in results.pdf.
 
 
